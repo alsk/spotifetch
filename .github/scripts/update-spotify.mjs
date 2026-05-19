@@ -18,7 +18,10 @@ import { writeFileSync, mkdirSync } from 'fs';
   const { access_token } = await tokenRes.json();
 
   // Fetch top tracks
-  const tracksRes = await fetch('https://api.spotify.com/v1/me/top/tracks?time_range=short_term&limit=5', {
+  // short_term → approximately the last 4 weeks
+  // medium_term → approximately the last 6 months
+  // long_term → calculated from several years of listening history
+  const tracksRes = await fetch('https://api.spotify.com/v1/me/top/tracks?time_range=medium_term&limit=5', {
     headers: { Authorization: `Bearer ${access_token}` },
   });
 
