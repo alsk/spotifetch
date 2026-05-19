@@ -1,21 +1,9 @@
 [
   {
-    "id": "6FWxgBpvKqHOkeoMK3NOGC",
-    "name": "Minimum !",
-    "artists": "Bigflo & Oli",
-    "image": "https://i.scdn.co/image/ab67616d00001e021e062b5063b6e3afccb61e9c"
-  },
-  {
-    "id": "2vHBasQ4f1NvqNhDdihG30",
-    "name": "Mixed Signals",
-    "artists": "Last Known Species",
-    "image": "https://i.scdn.co/image/ab67616d00001e02e45f2a09d2de6eab0e867031"
-  },
-  {
-    "id": "7hVxHx9kJ13hfKT3vSrICq",
-    "name": "Babtou",
-    "artists": "Romsii",
-    "image": "https://i.scdn.co/image/ab67616d00001e0233f10dd109e54050b216d6a5"
+    "id": "6Gc3lv1KXGsjBz5vLnZ76p",
+    "name": "1999",
+    "artists": "Phantom Youth",
+    "image": "https://i.scdn.co/image/ab67616d00001e0276eda17605bf5754a4e27886"
   },
   {
     "id": "1JlzSXVFPWy6zu7GaLRj0N",
@@ -24,9 +12,21 @@
     "image": "https://i.scdn.co/image/ab67616d00001e0284ff4d4f847e85e9e35dd0dd"
   },
   {
-    "id": "2OscbmifJ7BYawjBblLpRL",
-    "name": "I Want You Bad",
-    "artists": "Gonzi, Kichta",
-    "image": "https://i.scdn.co/image/ab67616d00001e02ca529237d33a7077056300b8"
+    "id": "2jvsJcz7ELmY3lYBsXLmWN",
+    "name": "The Right Way",
+    "artists": "The Midnight",
+    "image": "https://i.scdn.co/image/ab67616d00001e0291ee800d6fc65bdad7c41d6e"
+  },
+  {
+    "id": "5vkl2XxKyC2p9hHNkrql4c",
+    "name": "Kick It Hard",
+    "artists": "Franck",
+    "image": "https://i.scdn.co/image/ab67616d00001e02c6ed6441cb42e6b78ea5c643"
+  },
+  {
+    "id": "4jXym1vRavPevUo2UHRkJE",
+    "name": "goodbye 4 now",
+    "artists": "OSAYUKI",
+    "image": "https://i.scdn.co/image/ab67616d00001e0226503ccae55da0bd180154bb"
   }
 ]
