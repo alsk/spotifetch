@@ -1,4 +1,4 @@
-import { writeFileSync } from 'fs';
+import { writeFileSync, mkdirSync } from 'fs';
 
 const { SPOTIFY_CLIENT_ID, SPOTIFY_CLIENT_SECRET, SPOTIFY_REFRESH_TOKEN } = process.env;
 
@@ -30,5 +30,6 @@ const tracks = items.map((t) => ({
   image: t.album.images[1]?.url ?? t.album.images[0]?.url,
 }));
 
+mkdirSync('public', { recursive: true });
 writeFileSync('public/spotify-top.json', JSON.stringify(tracks, null, 2));
 console.log(`Updated ${tracks.length} tracks.`);
