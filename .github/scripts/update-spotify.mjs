@@ -1,7 +1,6 @@
 import { writeFileSync, mkdirSync } from 'fs';
 
-  const { SPOTIFY_CLIENT_ID, SPOTIFY_CLIENT_SECRET, SPOTIFY_REFRESH_TOKEN }
-   = process.env;
+  const { SPOTIFY_CLIENT_ID, SPOTIFY_CLIENT_SECRET, SPOTIFY_REFRESH_TOKEN } = process.env;
 
   // Refresh access token
   const tokenRes = await fetch('https://accounts.spotify.com/api/token', {
@@ -18,9 +17,7 @@ import { writeFileSync, mkdirSync } from 'fs';
   const { access_token } = await tokenRes.json();
 
   // Fetch top tracks
-  // short_term → approximately the last 4 weeks
-  // medium_term → approximately the last 6 months
-  // long_term → calculated from several years of listening history
+  // short_term → 4 weeks / medium_term → 6 months / long_term → years
   const tracksRes = await fetch('https://api.spotify.com/v1/me/top/tracks?time_range=medium_term&limit=5', {
     headers: { Authorization: `Bearer ${access_token}` },
   });
@@ -35,6 +32,5 @@ import { writeFileSync, mkdirSync } from 'fs';
   }));
 
   mkdirSync('public', { recursive: true });
-  writeFileSync('public/spotify-top.json', JSON.stringify(tracks, null,
-  2));
+  writeFileSync('public/spotify-top.json', JSON.stringify(tracks, null, 2));
   console.log(`Updated ${tracks.length} tracks.`);
