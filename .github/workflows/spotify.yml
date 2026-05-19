@@ -1,11 +1,11 @@
 name: Update Spotify Top Tracks
 
-  on:
+on:
     schedule:
       - cron: '0 6 * * *'
     workflow_dispatch:
 
-  jobs:
+jobs:
     update:
       runs-on: ubuntu-latest
       steps:
@@ -27,8 +27,6 @@ name: Update Spotify Top Tracks
         - name: Commit if changed
           run: |
             git config user.name 'github-actions[bot]'
-            git config user.email
-  'github-actions[bot]@users.noreply.github.com'
+            git config user.email 'github-actions[bot]@users.noreply.github.com'
             git add public/spotify-top.json
-            git diff --staged --quiet || (git commit -m 'chore: update
-  spotify top tracks' && git push)
+            git diff --staged --quiet || (git commit -m 'chore: update spotify top tracks' && git push)
