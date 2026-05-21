@@ -37,7 +37,13 @@ const recoRes = await fetch(
   `https://api.spotify.com/v1/recommendations?seed_tracks=${seedIds}&limit=20`,
   { headers: { Authorization: `Bearer ${access_token}` } }
 );
-const { tracks: recoTracks } = await recoRes.json();
+
+const recoText = await recoRes.text();
+console.log('Reco status:', recoRes.status);
+console.log('Reco body:', recoText);
+
+const recoJson = JSON.parse(recoText);
+const recoTracks = recoJson.tracks ?? [];
 const recos = recoTracks.map((t) => ({
   id: t.id,
   name: t.name,
