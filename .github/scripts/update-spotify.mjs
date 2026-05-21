@@ -34,7 +34,7 @@ writeFileSync('public/spotify-top.json', JSON.stringify(tracks, null, 2));
 console.log(`Updated ${tracks.length} top tracks.`);
 
 // Recently played
-const recentRes = await fetch('https://api.spotify.com/v1/me/player/recently-played?limit=20', {
+const recentRes = await fetch('https://api.spotify.com/v1/me/player/recently-played?limit=5', {
   headers: { Authorization: `Bearer ${access_token}` },
 });
 const { items: recentItems } = await recentRes.json();
