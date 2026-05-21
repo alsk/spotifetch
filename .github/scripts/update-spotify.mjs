@@ -2,7 +2,6 @@ import { writeFileSync, mkdirSync } from 'fs';
 
 const { SPOTIFY_CLIENT_ID, SPOTIFY_CLIENT_SECRET, SPOTIFY_REFRESH_TOKEN } = process.env;
 
-// Refresh access token
 const tokenRes = await fetch('https://accounts.spotify.com/api/token', {
   method: 'POST',
   headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
@@ -31,25 +30,18 @@ mkdirSync('public', { recursive: true });
 writeFileSync('public/spotify-top.json', JSON.stringify(tracks, null, 2));
 console.log(`Updated ${tracks.length} top tracks.`);
 
-// Fetch recommendations (seed = top 5 track IDs)
-const seedIds = tracks.map((t) => t.id).join(',');
-const recoRes = await fetch(
-  `https://api.spotify.com/v1/recommendations?seed_tracks=${seedIds}&limit=20`,
-  { headers: { Authorization: `Bearer ${access_token}` } }
-);
-
-const recoText = await recoRes.text();
-console.log('Reco status:', recoRes.status);
-console.log('Reco body:', recoText);
-
-const recoJson = JSON.parse(recoText);
-const recoTracks = recoJson.tracks ?? [];
-const recos = recoTracks.map((t) => ({
-  id: t.id,
-  name: t.name,
-  artists: t.artists.map((a) => a.name).join(', '),
-  image: t.album.images[1]?.url ?? t.album.images[0]?.url,
-}));
-
-writeFileSync('public/spotify-reco.json', JSON.stringify(recos, null, 2));
-console.log(`Updated ${recos.length} recommendations.`);
+// Test reco endpoint
+try {
+  const seedIds = tracks.map((t) => t.id).join(',');
+  const recoRes = await fetch(
+    `https://api.spotify.com/v1/recommendations?seed_tracks=${seedIds}&limit=20`,
+    { headers: { Authorization: `Bearer ${access_token}` } }
+  );
+  console.log('Reco status:', recoRes.status);
+  console.log('Reco headers:', Object.fromEntries(recoRes.headers.entries()));
+  const recoText = await recoRes.text();
+  console.log('Reco body length:', recoText.length);
+  console.log('Reco body:', recoText.slice(0, 500));
+} catch (err) {
+  console.error('Reco fetch error:', err.message);
+}
