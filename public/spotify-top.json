@@ -1,32 +1,26 @@
 [
-  {
-    "id": "6Gc3lv1KXGsjBz5vLnZ76p",
-    "name": "1999",
-    "artists": "Phantom Youth",
-    "image": "https://i.scdn.co/image/ab67616d00001e0276eda17605bf5754a4e27886"
-  },
-  {
-    "id": "1JlzSXVFPWy6zu7GaLRj0N",
-    "name": "Cynical",
-    "artists": "Sea Lemon",
-    "image": "https://i.scdn.co/image/ab67616d00001e0284ff4d4f847e85e9e35dd0dd"
-  },
-  {
-    "id": "2jvsJcz7ELmY3lYBsXLmWN",
-    "name": "The Right Way",
-    "artists": "The Midnight",
-    "image": "https://i.scdn.co/image/ab67616d00001e0291ee800d6fc65bdad7c41d6e"
-  },
-  {
-    "id": "5vkl2XxKyC2p9hHNkrql4c",
-    "name": "Kick It Hard",
-    "artists": "Franck",
-    "image": "https://i.scdn.co/image/ab67616d00001e02c6ed6441cb42e6b78ea5c643"
-  },
-  {
-    "id": "4jXym1vRavPevUo2UHRkJE",
-    "name": "goodbye 4 now",
-    "artists": "OSAYUKI",
-    "image": "https://i.scdn.co/image/ab67616d00001e0226503ccae55da0bd180154bb"
-  }
-]
+	{
+	  "id": "1Ny1a8v88zPBLIlYCW0SYj",
+	  "name": "Panda",
+	  "artists": "Lupage, NIVEK",
+	  "image": "https://i.scdn.co/image/ab67616d00001e020a618a318c7599cc2f9c6e6d"
+	},
+	{
+	  "id": "72wD7ucl0m4psVWaMUNREZ",
+	  "name": "High",
+	  "artists": "Kid Cubi",
+	  "image": "https://i.scdn.co/image/ab67616d00001e0260b4daf05bdbff245fd44233"
+	},
+	{
+	  "id": "6Gc3lv1KXGsjBz5vLnZ76p",
+	  "name": "1999",
+	  "artists": "Phantom Youth",
+	  "image": "https://i.scdn.co/image/ab67616d00001e0276eda17605bf5754a4e27886"
+	},
+	{
+		"id": "1JlzSXVFPWy6zu7GaLRj0N",
+		"name": "Cynical",
+		"artists": "Sea Lemon",
+		"image": "https://i.scdn.co/image/ab67616d00001e0284ff4d4f847e85e9e35dd0dd"
+	}
+ ]
