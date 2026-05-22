@@ -23,7 +23,7 @@ const mapTrack = (t) => ({
 });
 
 // Top tracks long_term
-const topRes = await fetch('https://api.spotify.com/v1/me/top/tracks?time_range=long_term&limit=5', {
+const topRes = await fetch('https://api.spotify.com/v1/me/top/tracks?time_range=medium_term&limit=5', {
   headers: { Authorization: `Bearer ${access_token}` },
 });
 const { items: topItems } = await topRes.json();
