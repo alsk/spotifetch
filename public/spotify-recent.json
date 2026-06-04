@@ -1,32 +1,26 @@
 [
   {
+    "id": "1gYhY6lBUobvFCB5klYJkL",
+    "name": "Spring",
+    "artists": "Mr. Polska, Ski Aggu, Natte Visstick",
+    "image": "https://i.scdn.co/image/ab67616d00001e02967021638e7622a18537feeb"
+  },
+  {
+    "id": "3x7Lzu7QQWKYtF5090da5w",
+    "name": "обла.ком",
+    "artists": "Солова",
+    "image": "https://i.scdn.co/image/ab67616d00001e02fd51b3d42ac919b8207e78ba"
+  },
+  {
+    "id": "3rqXWztfruJ5Bq7W9xw10E",
+    "name": "From Me",
+    "artists": "CRi, Bernache",
+    "image": "https://i.scdn.co/image/ab67616d00001e0201d500209eab2a0f3589175f"
+  },
+  {
     "id": "1B9yjSWSSKg4q0ASEbTXnP",
     "name": "Afterglow",
     "artists": "Zorro",
     "image": "https://i.scdn.co/image/ab67616d00001e02fd92bb1151c134e11c079ab2"
-  },
-  {
-    "id": "73i6cz59sCQFNaZwR8p96N",
-    "name": "Say What You Want",
-    "artists": "Stella Bossi",
-    "image": "https://i.scdn.co/image/ab67616d00001e022d3b44322089c2200dbe3184"
-  },
-  {
-    "id": "1oeMjqDUMrsymkQorlFrGR",
-    "name": "SUGAR RUSH",
-    "artists": "Dutch Hour, NeuroBeatz",
-    "image": "https://i.scdn.co/image/ab67616d00001e02e458b842da507f2771e210bc"
-  },
-  {
-    "id": "0gH48CJYOsoA2vl9ERM9W5",
-    "name": "I Told The Stars About You",
-    "artists": "DJ GUESTLIST",
-    "image": "https://i.scdn.co/image/ab67616d00001e02b4d692564372b682aa751c03"
-  },
-  {
-    "id": "5vkl2XxKyC2p9hHNkrql4c",
-    "name": "Kick It Hard",
-    "artists": "Franck",
-    "image": "https://i.scdn.co/image/ab67616d00001e02c6ed6441cb42e6b78ea5c643"
   }
 ]
