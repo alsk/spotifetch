@@ -1,5 +1,17 @@
 [
   {
+    "id": "1B9yjSWSSKg4q0ASEbTXnP",
+    "name": "Afterglow",
+    "artists": "Zorro",
+    "image": "https://i.scdn.co/image/ab67616d00001e02fd92bb1151c134e11c079ab2"
+  },
+  {
+    "id": "4rj3vVOciIWVhFS6sIzfMr",
+    "name": "Distraction",
+    "artists": "Johnny Dynamite",
+    "image": "https://i.scdn.co/image/ab67616d00001e02981c0f81b1e7f53cfe263795"
+  },
+  {
     "id": "0gdWSthwNMJ4TPVya8b0bh",
     "name": "Already Gone",
     "artists": "RICEWINE",
@@ -16,17 +28,5 @@
     "name": "Mountain Time",
     "artists": "Molly Nilsson",
     "image": "https://i.scdn.co/image/ab67616d00001e02947b612d0e6889a040029feb"
-  },
-  {
-    "id": "2uWK8L00nAwc4PFzVaedmF",
-    "name": "Maya & John",
-    "artists": "Josh Augustin",
-    "image": "https://i.scdn.co/image/ab67616d00001e0208053902412a6a856f5a86e0"
-  },
-  {
-    "id": "1rPYEWQfIRo5A4fvLgFbBe",
-    "name": "Golden Light",
-    "artists": "STRFKR",
-    "image": "https://i.scdn.co/image/ab67616d00001e029bd8208f0a750a00d2bf8c8b"
   }
 ]
