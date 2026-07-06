@@ -1,5 +1,11 @@
 [
   {
+    "id": "4dk40nfaQav6b4ZsJ9OYUo",
+    "name": "Love My Way",
+    "artists": "The Psychedelic Furs",
+    "image": "https://i.scdn.co/image/ab67616d00001e020faf6c6f66c3ba57e7dbf33b"
+  },
+  {
     "id": "75ouEgLggblEMuTqZFJZGf",
     "name": "Dutch Bounce",
     "artists": "AREA ØNE",
@@ -22,11 +28,5 @@
     "name": "HOLA",
     "artists": "Lupage, Cassie Ann",
     "image": "https://i.scdn.co/image/ab67616d00001e0241f66b91eff6ba91941c3f5d"
-  },
-  {
-    "id": "4qBilM7ghVNTfY8GueRAXP",
-    "name": "Hard & Trance",
-    "artists": "Eskha",
-    "image": "https://i.scdn.co/image/ab67616d00001e02923095eb1133e51100855761"
   }
 ]
