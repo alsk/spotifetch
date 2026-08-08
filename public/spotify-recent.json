@@ -1,5 +1,17 @@
 [
   {
+    "id": "1B9yjSWSSKg4q0ASEbTXnP",
+    "name": "Afterglow",
+    "artists": "Zorro",
+    "image": "https://i.scdn.co/image/ab67616d00001e02fd92bb1151c134e11c079ab2"
+  },
+  {
+    "id": "4rj3vVOciIWVhFS6sIzfMr",
+    "name": "Distraction",
+    "artists": "Johnny Dynamite",
+    "image": "https://i.scdn.co/image/ab67616d00001e02981c0f81b1e7f53cfe263795"
+  },
+  {
     "id": "0F07aAx61BGVJ0S1BJX6pY",
     "name": "By My Side (Stolen Dance)",
     "artists": "southstar, Milky Chance",
@@ -16,17 +28,5 @@
     "name": "Shake - Mr. Polska Remix",
     "artists": "Anuuk, Mr. Polska, Kø:lab",
     "image": "https://i.scdn.co/image/ab67616d00001e02a2476135a73d947b24cd691a"
-  },
-  {
-    "id": "65WcF1o2DSOw4xire7qMQf",
-    "name": "Casting Silhouettes",
-    "artists": "W O L F C L U B",
-    "image": "https://i.scdn.co/image/ab67616d00001e02dce9f81fbb454f331cafe144"
-  },
-  {
-    "id": "1XrSjpNe49IiygZfzb74pk",
-    "name": "What Once Was",
-    "artists": "Her's",
-    "image": "https://i.scdn.co/image/ab67616d00001e02fc1bc1cf80c431c2bdbde601"
   }
 ]
