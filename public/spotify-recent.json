@@ -1,5 +1,11 @@
 [
   {
+    "id": "7CpbhqKUedOIrcvc94p60Y",
+    "name": "Bodies",
+    "artists": "Drowning Pool",
+    "image": "https://i.scdn.co/image/ab67616d00001e0226d45b50f2016fed43d54320"
+  },
+  {
     "id": "17N5FdRwJuv3UXQ7MHnbhF",
     "name": "Ballin",
     "artists": "Logic",
@@ -22,11 +28,5 @@
     "name": "Panda",
     "artists": "Lupage, NIVEK",
     "image": "https://i.scdn.co/image/ab67616d00001e020a618a318c7599cc2f9c6e6d"
-  },
-  {
-    "id": "0AyA2lHB4YnQUNa8Y6NNjm",
-    "name": "Sorry 4 What? // LV BELT",
-    "artists": "Tory Lanez",
-    "image": "https://i.scdn.co/image/ab67616d00001e023f8455eeaf0125c7b179840c"
   }
 ]
