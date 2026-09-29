@@ -1,5 +1,17 @@
 [
   {
+    "id": "3OgNAp8VkWbN03LXYEqfaE",
+    "name": "IL PLEUT ET C MAGNIFIQUE",
+    "artists": "VILK",
+    "image": "https://i.scdn.co/image/ab67616d00001e0291436d62e72f6add64222cff"
+  },
+  {
+    "id": "4yxUEs4gjorbYEjAxNfnBH",
+    "name": "When You're Gone",
+    "artists": "CYDEN",
+    "image": "https://i.scdn.co/image/ab67616d00001e027a915e245a654a326a312dc3"
+  },
+  {
     "id": "5jcMhhJ0gXhtruaFIBbL3t",
     "name": "Wild Boy",
     "artists": "mgk, Waka Flocka Flame",
@@ -16,17 +28,5 @@
     "name": "The Devil Is A Lie",
     "artists": "Rick Ross, JAŸ-Z",
     "image": "https://i.scdn.co/image/ab67616d00001e025120a8ab13cd09062ded5995"
-  },
-  {
-    "id": "0LFcFGLYTX6UmeIdO7NVd7",
-    "name": "Ali Bomaye",
-    "artists": "The Game, 2 Chainz, Rick Ross",
-    "image": "https://i.scdn.co/image/ab67616d00001e02a65779c8c92dff73f8189800"
-  },
-  {
-    "id": "35iLpqqQg4KrfYAzbvN1vH",
-    "name": "New Noise",
-    "artists": "Refused",
-    "image": "https://i.scdn.co/image/ab67616d00001e025cc694ed1ca80fd696a0817e"
   }
 ]
