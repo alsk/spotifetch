@@ -1,20 +1,32 @@
 [
   {
+    "id": "3byIQRxNzJ3uD45fvT1VxQ",
+    "name": "Automatic Deal",
+    "artists": "Digitalism, Temp Affairs, sparr00w, bleac",
+    "image": "https://i.scdn.co/image/ab67616d00001e02441722d587bb2358a2e11c1e"
+  },
+  {
     "id": "0H8cP2L0uH9jWmVEMc8FHN",
     "name": "ex;curse velvet - 2026 Ver",
     "artists": "aisagasu eye shadow",
     "image": "https://i.scdn.co/image/ab67616d00001e02cbd93262ce2dad2bd13bd129"
   },
   {
-    "id": "5QD28FqaM3jTfsqWwvRZwv",
-    "name": "Soldier",
-    "artists": "Eminem",
-    "image": "https://i.scdn.co/image/ab67616d00001e026ca5c90113b30c3c43ffb8f4"
+    "id": "3m8UfZwPMMbiWfGR8Lg2cR",
+    "name": "The Rebel Path",
+    "artists": "P.T. Adamczyk",
+    "image": "https://i.scdn.co/image/ab67616d00001e02ca593ba6b61b7a164ae408b9"
   },
   {
-    "id": "1Ny1a8v88zPBLIlYCW0SYj",
-    "name": "Panda",
-    "artists": "Lupage, NIVEK",
-    "image": "https://i.scdn.co/image/ab67616d00001e020a618a318c7599cc2f9c6e6d"
+    "id": "401PQQgLIWmIIlqET6PRq6",
+    "name": "Suce Ma Bite",
+    "artists": "Fucking Fred",
+    "image": "https://i.scdn.co/image/ab67616d00001e021c5112649272269ed03c2029"
+  },
+  {
+    "id": "3oHlWW97RAUDCSQxFhuEyF",
+    "name": "Trauma",
+    "artists": "Revizia",
+    "image": "https://i.scdn.co/image/ab67616d00001e0227d11c54513748b090798ee9"
   }
 ]
